@@ -4,5 +4,7 @@ jobs:
   build-deploy-site:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: GitHub Pelican Build Action
         uses: iranzo/gh-pages-pelican-action@1.0.3
