@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
       - name: GitHub Pelican Build Action
         uses: iranzo/gh-pages-pelican-action@1.0.3
