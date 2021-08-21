@@ -1,4 +1,4 @@
-<link href="/libraries/colorbox/example3/colorbox.css" type="text/css" rel="stylesheet" />
+<link href="{{ SITEURL }}/libraries/colorbox/example3/colorbox.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
         let colorboxScript = document.createElement('script');
@@ -10,7 +10,7 @@
                 scrolling: false
             });
         });
-        colorboxScript.setAttribute('src','/libraries/colorbox/jquery.colorbox-min.js');
+        colorboxScript.setAttribute('src','{{ SITEURL }}/libraries/colorbox/jquery.colorbox-min.js');
         document.head.appendChild(colorboxScript);
     }, false);
 </script>
