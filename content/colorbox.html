@@ -1,0 +1,16 @@
+<link href="/libraries/colorbox/example3/colorbox.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        let colorboxScript = document.createElement('script');
+        colorboxScript.addEventListener("load", function(evt) {
+            $('#content').find('.imgbox').colorbox({ 
+                maxWidth:"90%",
+                maxHeight:"90%",
+                transition:"fade",
+                scrolling: false
+            });
+        });
+        colorboxScript.setAttribute('src','/libraries/colorbox/jquery.colorbox-min.js');
+        document.head.appendChild(colorboxScript);
+    }, false);
+</script>

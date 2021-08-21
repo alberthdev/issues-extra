@@ -1,0 +1,12 @@
+[submodule "plugins/pelican-plugins"]
+	path = plugins/pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "content/libraries/colorbox"]
+	path = content/libraries/colorbox
+	url = https://github.com/jackmoore/colorbox.git
+[submodule "plugins/mdx_include"]
+	path = plugins/mdx_include
+	url = https://github.com/neurobin/mdx_include.git
+[submodule "themes/bootstrap-next"]
+	path = themes/bootstrap-next
+	url = https://github.com/alberthdev/bootstrap-next.git
