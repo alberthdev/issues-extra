@@ -15,7 +15,7 @@ BANNER_ALL_PAGES = False
 BOOTSTRAP_NAVBAR_INVERSE = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
-SITE_URL = "https://alberthdev.github.io/issues-extra"
+SITEURL = "https://alberthdev.github.io/issues-extra"
 
 # FS hierarchy: https://github.com/getpelican/pelican/issues/686#issuecomment-48603981
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'
